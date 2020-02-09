@@ -26,7 +26,7 @@
       };
 
       const chartDraw = async (target) => {
-            await getData("nasa-temperatures.csv");
+            await getData("ressources/nasa-temperatures.csv");
             const temperaturesChart = new Chart(target, {
                   type: 'line',
                   data: {
